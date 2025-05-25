@@ -1,5 +1,5 @@
 # 30-Days-Javascript-Exercises
-JavaScript challenges for 30 days
+**JavaScript challenges for 30 days**
 
 ## Week 1: JavaScript Basics
 
