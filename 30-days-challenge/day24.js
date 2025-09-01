@@ -21,5 +21,8 @@ const students = [
 
 
 for(let i = 0; i < students.length; i++){
-    console.log(`Name: ${students[i].name} \nAge: ${students[i].age} \nSex: ${students[i].gender} \n------------------------------------\n`)
+    for(let key in students[i]){
+        console.log(`${key}: ${students[i][key]}`)
+    }
+    console.log(`\n------------------------------------\n`)
 }
